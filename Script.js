@@ -22,11 +22,18 @@ function div() {
   let div = a / b;
   document.getElementById("out").innerHTML = div;
 }
-function pict() {
-  document.getElementById("pic").style.display = "block";
+function subm() {
+  var x = inp1.value;
+  var y = inp2.value;
+  if (x == "" && y == "") {
+    alert("Please Enter Numbers");
+  } else {
+    document.getElementById("pic").style.display = "block";
+  }
 }
 function res() {
   document.getElementById("inp1").value = "";
   document.getElementById("inp2").value = "";
   document.getElementById("out").innerHTML = "Answer";
+  document.getElementById("pic").style.display = "none";
 }
