@@ -51,10 +51,11 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
-#submit {
-  padding: 50px;
+#subres {
+  margin-top: 60px;
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
 }
 #sub {
   padding: 10px 20px;
@@ -67,11 +68,12 @@ h1 {
 }
 p {
   padding: 10px 20px;
-  border: 2px solid rgb(190, 15, 190);
+  border: 2px solid rgb(146, 144, 146);
   outline: none;
   align-self: center;
   text-align: center;
   box-sizing: border-box;
+  margin-top: 40px;
 }
 .ops:hover {
   background-color: rgb(73, 176, 73);
@@ -89,7 +91,7 @@ p {
   border-bottom: 1px solid #3784ff;
 }
 #sub:hover {
-  background-color: #5c9aff;
+  background-color: #2c7cfb;
 }
 .ops:focus {
   transform: scale(1.1);
@@ -103,4 +105,16 @@ p {
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
+}
+#res {
+  padding: 10px 25px;
+  background-color: #c30a0a;
+  outline: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
+#res:hover {
+  background-color: #e31414;
 }

@@ -25,3 +25,8 @@ function div() {
 function pict() {
   document.getElementById("pic").style.display = "block";
 }
+function res() {
+  document.getElementById("inp1").value = "";
+  document.getElementById("inp2").value = "";
+  document.getElementById("out").innerHTML = "Answer";
+}
